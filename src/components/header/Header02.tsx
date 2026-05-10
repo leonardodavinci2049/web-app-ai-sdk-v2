@@ -16,6 +16,7 @@ import ModeToggle from "../theme/mode-toggle";
 
 const TopMenu = [
   { id: "generate-image", name: "generate image", href: "/ui/generate-image" },
+  { id: "generate-speech", name: "generate speech", href: "/ui/generate-speech" },
   { id: "completion", name: "completion", href: "/ui/completion" },
   { id: "stream", name: "stream", href: "/ui/stream" },
   { id: "chat", name: "chat", href: "/ui/chat" },

@@ -30,7 +30,7 @@ export default function GenerateSpeechPage() {
     }
 
     try {
-      const response = await fetch("/api/api/generate-speech", {
+      const response = await fetch("/api/generate-speech", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
