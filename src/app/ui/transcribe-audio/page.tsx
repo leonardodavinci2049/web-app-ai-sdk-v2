@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 
 interface TranscriptResult {
   text: string;
@@ -60,7 +60,7 @@ export default function TranscribeAudioPage() {
       setError(
         error instanceof Error
           ? error.message
-          : "Something went wrong. Please try again."
+          : "Something went wrong. Please try again.",
       );
     } finally {
       setIsLoading(false);
